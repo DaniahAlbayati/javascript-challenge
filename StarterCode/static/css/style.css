@@ -97,11 +97,12 @@ select {
   height: 550px;
   padding: 20px;
   margin: 0;
-  background: black;
-  background-image: url("../images/nasa.jpg");
+  background: rgb(49, 107, 146);
+  background-image: url("../images/ET.jpg");
   background-attachment: fixed;
   background-position: bottom center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero h1 {
