@@ -22,7 +22,7 @@ table_function(tableData);
 
 // Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
-var button = d3.select("filter-btn")
+var button = d3.select("#filter-btn")
 // Create event handlers
 button.on("click", runEnter);
 
